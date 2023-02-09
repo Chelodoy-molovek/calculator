@@ -1,0 +1,68 @@
+body {
+  background-color: black;
+}
+.container {
+  height: 770px;
+  width: 380px;
+  background-color: black;
+  border-radius: 50px;
+  margin: 0 auto;
+  background: url(./img/30b23e27884ef903536b8434730c1d75\ копия.png);
+  background-size: 100%;
+}
+.inpuText {
+  display: flex;
+  height: 290px;
+  align-items: flex-end;
+  flex-direction: row-reverse;
+  /* margin-bottom: 40px; */
+}
+.menu_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.row_container {
+  padding: 5px 30px;
+  display: flex;
+  justify-content: space-around;
+}
+.button_style {
+  height: 70px;
+  width: 70px;
+  border-radius: 50px;
+  background-color: #2d2d2d;
+  color: white;
+  font-weight: 100;
+  font-size: 25px;
+  border-width: 0;
+}
+.button_style:hover {
+  background-color: #737373;
+}
+.zero_button {
+  width: 150px;
+  align-items: flex-start;
+}
+.inpValue {
+  background-color: black;
+  margin: 0px 40px;
+  width: 90%;
+  height: 100px;
+  text-align: end;
+  font-size: 80px;
+  color: white;
+  font-weight: 300;
+  border: 1px solid black;
+  outline: none;
+}
+.button_style_gray {
+  background-color: #a0a0a0;
+  color: black;
+}
+.button_style_orange {
+  background-color: #f69a01;
+}
+input::placeholder {
+  color: rgb(255, 255, 255);
+}
